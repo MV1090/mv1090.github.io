@@ -695,9 +695,10 @@ footer p {
 
 .project-thumbnails{
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
 }
 
 .thumbnail{
