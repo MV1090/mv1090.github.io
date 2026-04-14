@@ -15,70 +15,78 @@ body {
 
 /* ================= HEADER ================= */
 
-header {
-    font-family: "Orbitron", sans-serif;
-    background: #e8ecf4;
-    display: flex;
-    flex-direction: column;
+header { 
+    font-family: "Orbitron", sans-serif; 
+    background: #e8ecf4; 
+    display: flex; flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
+    width: 100%; 
+    padding-top: 30px; 
+    opacity:0; 
+    transition: opacity 1s ease-in; 
+} 
+    
+.email { 
+    color: #264276; 
+    align-self: flex-start; 
+    margin-top: 10px; 
+    margin-left: 10px; 
+    font-size: 1.2rem; 
+} 
+
+header.visible{ 
+    opacity: 1; 
+} 
+    
+.logo { 
+    margin-left: auto; 
+} 
+
+.logo img { 
+    margin-left: 5px ; 
+    width: 100%; 
+    max-width: 140px; 
+    height: auto; 
+    position: relative; 
+    left: 50%; 
+    transform: translateX(-60%); 
+} 
+
+.header-content { 
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    bottom: 0px; 
+    color: #323232; 
+} 
+
+.name-job{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    flex: 1; left: 50%; 
+    transform: translateX(4%); 
+} 
+
+.header-name { 
+    color: #264276; 
+    font-size: 2rem; 
+} 
+
+.header-role { 
+    color: #323232; 
+    font-size: 1rem; 
+} 
+
+.buttons{ 
+    display: flex; 
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 15px 30px;
-    opacity:0;
-    transition: opacity 1s ease-in;
-}
-
-header.visible{
-    opacity: 1;
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.name-job{
-    display: flex;
-    flex-direction: column;
-}
-
-.header-name {
-    color: #264276;
-    font-size: 1.8rem;
-}
-
-.header-role {
-    color: #323232;
-    font-size: 1rem;
-}
-
-.logo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.logo img {
-    margin-left: 5px ;
-    width: 100%; /* Make logo responsive */
-    max-width: 140px; /* Maximum width */
-    height: auto;
-    position: relative; /* Position it relative to the parent */
-    left: 50%;
-    transform: translateX(-60%); /* Move it back by 50% of its own width */
-}
-
-.buttons {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;  /* ✅ pushes to right */
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
+     width: 100% 
+    }
 
 /* Navigation */
 nav ul {  
