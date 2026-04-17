@@ -186,6 +186,13 @@ section p {
 }
 
 .project-description {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.project-description p,
+.project-description ul {
     max-width: 500px;
 }
 
@@ -199,12 +206,13 @@ section p {
 }
 
 .project-images {
-    display: flex;
+     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex: 1;
+    min-width: 300px;
     max-width: 550px;
     width: 100%;
-    margin-left: 50px;
 }
 
 .project-video iframe {

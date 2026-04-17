@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Randy - MVGameDev</title>
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class = "header">            
+        <div class="header-content">            
+
+            <div class ="name-job">
+                <h1 class="header-name">Mark Vale</h1>     
+                <h1 class="header-role">Game Designer</h1> 
+            </div>
+
+            <div class = "logo">
+                <img class="logo" src = "Logo march-2025.png" alt = "Logo">    
+            </div>   
+        </div>
+        <div class="buttons">   
+            <h3 class = "email">Randy the naughty wizard</h3>               
+            <nav>                
+                <ul>                    
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="reaction.html">Reaction Distraction</a></li>  
+                            <li><a href="alice.html">Alice In Public Domain</a></li>                            
+                            <li><a href="sidejob.html">Side Job Steve</a></li>
+                            <li><a href="crossbow.html">Crossbow Lady</a></li>
+                            <li><a href="paper.html">Paper Round</a></li>                                                    
+                        </ul>
+                      </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>             
+        </div>       
+    </header>
+        
+    <!-- Main Content Section -->
+    <main>
+        <div class = line></div>
+        <section class="section"> 
+            <h2>Projects</h2>   
+            <div class="item-list">
+            <h2 class = "pojectTitles">Randy the naughty wizard</h2>
+            <div class = "project-section">
+                <div  class = "project-description">
+                    <p>
+                        <strong>Engine: </strong> Unity<br><br>
+                        <strong>Platform: </strong> Windows/ WebGL<br><br>
+                        <strong>Language: </strong> C#<br><br>
+                        <strong>Role: </strong> Programmer/ Game Designer<br><br>
+                        
+                        <strong>Summary:</strong><br>
+                        Randy the naughty wizard was created in 10 days for GoedWare Game Jam #16.
+                        Jam Theme 'you can not save them all'
+                        This is a puzzle-platformer built in Unity where your core mechanic is choosing which elemental spirit to save, this choice changes the level you play next.
+                        My biggest achievement in this project was the Modular Level System, I designed and implemented a fully modular level system using Unity ScriptableObjects, allowing levels to be created, configured, and reordered entirely within the editor without code changes.<br><br>
+                    </p>   
+                        <strong>Programmer Highlights:</strong><br>
+                        <ul>
+                             <li>
+                                <strong>Modular Level System:</strong> Built a data-driven level pipeline using ScriptableObjects, enabling rapid content creation and reordering without modifying code.
+                            </li>
+                            <li>
+                                <strong>Branching Progression:</strong> Implemented a non-linear level flow system where player choices determine future gameplay paths, increasing replayability.
+                            </li>
+                            <li>
+                                <strong>Dialogue System:</strong> Developed a scalable, ScriptableObject-based dialogue system allowing designers to create and manage dialogue entirely in-editor.
+                            </li>
+                            <li>
+                                <strong>Editor Workflow Tools:</strong> Created designer-friendly systems within the Unity Inspector to streamline iteration during rapid development.
+                            </li>
+                            <li>
+                                <strong>Systems Integration:</strong> Integrated player abilities, puzzle mechanics, and environmental interactions into a cohesive and extensible architecture.
+                            </li>                                                                                                                          
+                        </ul><br>
+                        
+                        <strong>Art:</strong><br>
+                        Credit:<br>
+                        <ui>
+                            <li>Player Sprite and Animation - Dr.JAR+</li>
+                            <li>Title Screen, Wizard sprite and elemental sprites were generated using AI tools based on original art work by Dr.JAR+</li>
+                            <li>UI - Fantasy Wooden GUI(Black Hammer) - Unity Asset store</li>
+                            <li>2D Platform Tile Set (Iphigenia Pixels) - Unity Asset store</li>
+                        </ui>
+                       
+                                                                 
+                    
+                </div>
+                <div class = "project-visuals">
+                    <div class = "project-images" id="project2">
+                        <div class = "title-image">
+                            <img class="main-image" src="Images/Randy/Game cover Image.png">
+                        </div> 
+                        <div class = "project-thumbnails">
+                            <ul>                    
+                                <img class="thumbnail" src="Images/Randy/ScriptableObjects.PNG">
+                                <img class="thumbnail" src="Images/Randy/Level Loader.PNG">
+                                <img class="thumbnail" src="Images/Randy/Level Manager.PNG">
+                                <img class="thumbnail" src="Images/Randy/Resettable Objects.PNG">
+                            </ul>
+                        </div> 
+                    </div>
+                    <div class = "project-video">
+                        <iframe
+                        src="https://www.youtube.com/embed/idvDXNDt4C4" 
+                        frameborder="0"                 
+                        allowfullscreen>                
+                        </iframe> 
+                    </div>
+                </div>
+            </div><br><br>
+            <div class = "DownloadButton">
+                <a href = "https://mv1090.itch.io/randy-the-naughty-wizard" target="_blank">Play on Itch.io</a>
+            </div> 
+            </div>
+        </section>
+        <div class = "socials">
+            <a href="https://www.linkedin.com/in/mark-vale-677670329" class="fa fa-linkedin"></a>
+            <a href="https://github.com/MV1090" class="fa fa-github"></a>
+        </div>
+        <div class = line></div>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>      
+        <p>&copy; 2025 Mark Vale Game Design</p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
